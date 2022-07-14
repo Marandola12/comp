@@ -166,3 +166,7 @@ write.csv(x = comm_total,
 sp1 <- filter(comm_total, TaxCode == "sp1", Elev > 3)
 
 View(sp1)
+
+# with native and with dplyr
+select_test1 <- comm_total[, c("TaxCode", "Abundance", "Sites")]
+select_test2 <- select(comm_total, data = 'TaxCode')
