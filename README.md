@@ -7,8 +7,10 @@ Welcome! This is a demo repository with the example of a data analysis' project 
 ```
 project/
 *    ├── data/
+*    │   ├── raster
 *    │   ├── raw
-*    │   └── processed
+     │   ├── processed
+     │   └── shapefiles
      ├── docs/
 *    ├── figs/
      ├── R/
