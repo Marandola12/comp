@@ -94,6 +94,7 @@ res(tmax_data)
 # Check the tutorials in rspatialdata
 # Check the multiple CRAN TaskViews regarding spatial data
 
+# check WKT notation (Well-Known Text)
 
 # colorbrewer2.org
 # #| eval: false
